@@ -7,6 +7,7 @@
 a {
 	text-decoration:none;
 	color:black;
+	font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -15,6 +16,7 @@ header {
 	padding:10px;
 	display:flex;
 	color:#153B6A;
+	font-family: 'Roboto', sans-serif;
 }
 
 .headerMenuIcon {
@@ -27,15 +29,18 @@ header {
 header h1 {
 	text-align:center;
 	flex-basis:33.333%;
+	font-family: 'Roboto', sans-serif;
 }
 
 header p {
 	flex-basis:33.333%;
+	font-family: 'Roboto', sans-serif;
 }
 
 .pretripHeader {
 	display:flex;
 	justify-content:center;
+	font-family: 'Roboto', sans-serif;
 }
 
 .sidenavHero {
@@ -50,7 +55,7 @@ header p {
 	display: flex;
 	color:#153B6B;
 	align-items:center;
-	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 .sidenavItem img {
@@ -61,6 +66,7 @@ header p {
 	width:90%;
 	margin-left:auto;
 	margin-right:auto;
+	font-family: 'Roboto', sans-serif;
 }
 
 .homeContainer {
@@ -70,12 +76,14 @@ header p {
 
 .homeContainer h3 {
 	font-size:30px;
+	font-family: 'Roboto', sans-serif;
 }
 
 .homeContainer li {
 	font-size:20px;
 	margin-top:15px;
 	margin-bottom:15px;
+	font-family: 'Roboto', sans-serif;
 }
 
 .documentsContainer {
@@ -124,6 +132,7 @@ header p {
 	color: #406596;
 	box-shadow: 0px 3px 7px #b5b5b5;
 	margin-bottom:25px;
+	font-family: 'Roboto', sans-serif;
 }
 
 .itineraryContainer p {
@@ -134,6 +143,7 @@ header p {
 	display:flex;
 	margin-top:20px;
 	margin-bottom:20px;
+	font-family: 'Roboto', sans-serif;
 }
 
 .itemTime {
