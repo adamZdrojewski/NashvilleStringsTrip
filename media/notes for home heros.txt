@@ -1,0 +1,18 @@
+--friday--
+DONE good morning(departure time)
+DONE on the road
+DONE daytime in nashville
+DONE nightime in nashville
+DONE goodnight(in the hotel)
+
+--saturday--
+DONE good morning(departure time)
+DONE daytime in nashville
+DONE nighttime in nashville
+DONE goodnight(in the hotel)
+
+--sunday--
+DONE good morning(departure time)
+DONE daytime in nashville
+DONE on the road
+DONE farewell

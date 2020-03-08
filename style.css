@@ -1,0 +1,144 @@
+@charset "utf-8";
+
+* {
+	margin:0;
+}
+
+a {
+	text-decoration:none;
+	color:black;
+}
+
+header {
+	background-color: #E5AE54;
+	margin:0;
+	padding:10px;
+	display:flex;
+	color:#153B6A;
+}
+
+.headerMenuIcon {
+	flex-basis:33.333%;
+	display:flex;
+	justify-content:flex-start;
+	align-items:center;
+}
+
+header h1 {
+	text-align:center;
+	flex-basis:33.333%;
+}
+
+header p {
+	flex-basis:33.333%;
+}
+
+.sidenavHero {
+	background-image:url('media/sidenavHero.jpg');
+	height:200px;
+	width:250px;
+}
+
+.sidenavItem {
+	padding:15px;
+	margin-top:5px;
+	display: flex;
+	color:#153B6B;
+	align-items:center;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.sidenavItem img {
+	margin-right:15px;
+}
+
+.container {
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.homeContainer {
+	margin-top:20px;
+	color:#406596;
+}
+
+.homeContainer h3 {
+	font-size:30px;
+}
+
+.homeContainer li {
+	font-size:20px;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+.documentsContainer {
+	margin-top:10px;
+	color:#406596;
+}
+
+.documentsContainer a {
+	color:#406596;
+}
+
+.sidenav {
+	background-color:#FFDFAC;
+	height:100%;
+	width:0;
+	position:fixed;
+	z-index:1;
+	top:0;
+	left:0;
+	overflow-x:hidden;
+	transition:0.5s;
+}
+
+.documentsList {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:20px;
+}
+
+.documentsItem {
+	margin-top:20px;
+	margin-bottom:20px;
+	text-decoration:underline;
+}
+
+.documentsContainer p {
+	text-align:center;
+}
+
+.dateSelect {
+	background-color:white;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	padding:15px;
+	margin:0px;
+	color: #406596;
+	box-shadow: 0px 3px 7px #b5b5b5;
+	margin-bottom:25px;
+}
+
+.itineraryContainer p {
+	flex-basis:3%;
+}
+
+.item {
+	display:flex;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+.itemTime {
+	flex-basis:30%;
+	font-size:15px;
+	color:grey;
+}
+
+.itemName {
+	flex-basis:67%;
+	font-size:20px;
+	color:#406596;
+}
