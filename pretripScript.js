@@ -1,8 +1,8 @@
 var current = new Date();
 var date = current.getDate();
-/*if(date == 13 || date == 14 || date == 15) {
+if(date == 13 || date == 14 || date == 15) {
 	window.location.href = "index.html";
-}*/
+}
 
 //Countdown
 // Set the date we're counting down to

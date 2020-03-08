@@ -3,10 +3,6 @@ var current = new Date();
 var hour = current.getHours();
 var date = current.getDate();
 
-if(date == 7) {date = 13;}
-if(date == 8) {date = 14;}
-if(date == 9) {date = 15;}
-
 if(date == 13) {
 	if(hour < 7) {
 		document.write("<img width='100%' src='media/goodMorningFri.jpg'>");
