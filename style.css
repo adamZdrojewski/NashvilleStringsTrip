@@ -33,6 +33,11 @@ header p {
 	flex-basis:33.333%;
 }
 
+.pretripHeader {
+	display:flex;
+	justify-content:center;
+}
+
 .sidenavHero {
 	background-image:url('media/sidenavHero.jpg');
 	height:200px;
