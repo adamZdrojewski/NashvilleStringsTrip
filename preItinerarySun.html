@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>LHS Nashville</title>
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	
+	<body>
+	
+		<nav id="mySidenav" class="sidenav">
+			<a href="index.html"><div class="sidenavItem">
+				<img src="media/homeIcon.svg" alt="home icon">
+				<p>Home</p>
+			</div></a>
+			<a href="preItinerary.html"><div class="sidenavItem">
+				<img src="media/todayIcon.svg" alt="documents icon">
+				<p>Itinerary</p>
+			</div></a>
+		</nav>
+	
+		<header>
+			<div class="headerMenuIcon"><img src="media/menuIcon.svg" alt="open sidebar" onclick="openNav()"></div>
+			<h1>Itinerary</h1>
+			<p></p>
+		</header>
+		
+		<div class='dateSelect'>
+					<h4 onclick='toSat()'>SAT</h4>
+					<h3>Sunday</h3>
+					<h4 style='text-decoration:line-through;'>MON</h4>
+				</div>
+				
+				<div class='container itineraryContainer'>
+					<div class='item'>
+						<p></p>
+						<div class='itemTime'>8:00AM</div>
+						<div class='itemName'>Breakfast At Hotel With Group</div>
+					</div>
+					<div class='item'>
+						<p></p>
+						<div class='itemTime'>9:00AM</div>
+						<div class='itemName'>Check Out Of Hotel And Load Bus</div>
+					</div>
+					<div class='item'>
+						<p></p>
+						<div class='itemTime'>10:00AM</div>
+						<div class='itemName'>Inside Tracks Session With Singer/Songwriter And Producer At CMHF</div>
+					</div>
+					<div class='item'>
+						<p></p>
+						<div class='itemTime'>11:00AM</div>
+						<div class='itemName'>Country Music Hall Of Fame And Museum Tour</div>
+					</div>
+					<div class='item'>
+						<p></p>
+						<div class='itemTime'></div>
+						<div class='itemName'>Lunch On Music Row With Your Chaperone Group</div>
+					</div>
+					<div class='item'>
+						<p></p>
+						<div class='itemTime'>3:00PM</div>
+						<div class='itemName'>Bus Pick Up At CMHF. Transfer To RCA Studio B</div>
+					</div>
+					<div class='item'>
+						<p></p>
+						<div class='itemTime'>3:30PM</div>
+						<div class='itemName'>Tour Of Studio B + Recording Session</div>
+					</div>
+					<div class='item'>
+						<p></p>
+						<div class='itemTime'>5:00PM</div>
+						<div class='itemName'>Depart For Home/Dinner En Route</div>
+					</div>
+					<div class='item'>
+						<p></p>
+						<div class='itemTime'></div>
+						<div class='itemName'>TIME CHANGE</div>
+					</div>
+					<div class='item'>
+						<p></p>
+						<div class='itemTime'>11:00PM</div>
+						<div class='itemName'>Dinner - The Old Spaghetti Factory</div>
+					</div>
+				</div>
+
+		<script src="preItineraryControl.js"></script>
+		<script src="pretripScript.js"></script>
+	</body>
+</html>

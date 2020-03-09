@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>LHS Nashville</title>
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	
+	<body>
+	
+		<nav id="mySidenav" class="sidenav">
+			<a href="index.html"><div class="sidenavItem">
+				<img src="media/homeIcon.svg" alt="home icon">
+				<p>Home</p>
+			</div></a>
+			<a href="preItinerary.html"><div class="sidenavItem">
+				<img src="media/todayIcon.svg" alt="documents icon">
+				<p>Itinerary</p>
+			</div></a>
+		</nav>
+	
+		<header>
+			<div class="headerMenuIcon"><img src="media/menuIcon.svg" alt="open sidebar" onclick="openNav()"></div>
+			<h1>Itinerary</h1>
+			<p></p>
+		</header>
+		
+		<div class='dateSelect'>
+					<h4 style='text-decoration:line-through;'>Thu</h4>
+					<h3>Friday</h3>
+					<div onclick='toSat()'><h4>SAT</h4></div>
+				</div>
+				
+				<div class='container itineraryContainer'>
+					<div class='item'>
+						<p></p>
+						<div class='itemTime'>7:45AM</div>
+						<div class='itemName'>Depart LHS</div>
+					</div>
+					<div class='item'>
+						<p></p>
+						<div class='itemTime'></div>
+						<div class='itemName'>TIME CHANGE</div>
+					</div>
+					<div class='item'>
+						<p></p>
+						<div class='itemTime'>12:00PM</div>
+						<div class='itemName'>Lunch Near Belmont University</div>
+					</div>
+					<div class='item'>
+						<p></p>
+						<div class='itemTime'>1:00PM</div>
+						<div class='itemName'>Belmont University - Workshop With Elisabeth Small + Ryan Joseph (Classical + Commercial Styles Of String Playing)</div>
+					</div>
+					<div class='item'>
+						<p></p>
+						<div class='itemTime'>4:30PM</div>
+						<div class='itemName'>Gruhn Guitars</div>
+					</div>
+					<div class='item'>
+						<p></p>
+						<div class='itemTime'>5:30PM</div>
+						<div class='itemName'>Dinner - Hard Rock Cafe Nashville</div>
+					</div>
+					<div class='item'>
+						<p></p>
+						<div class='itemTime'>8:00PM</div>
+						<div class='itemName'>Nashville Symphony Concert</div>
+					</div>
+					<div class='item'>
+						<p></p>
+						<div class='itemTime'>10:00PM</div>
+						<div class='itemName'>Hotel Check In - Millennium Maxwell House</div>
+					</div>
+					<div class='item'>
+						<p></p>
+						<div class='itemTime'>11:00PM</div>
+						<div class='itemName'>In Rooms</div>
+					</div>
+					<div class='item'>
+						<p></p>
+						<div class='itemTime'>11:30PM</div>
+						<div class='itemName'>Go.To.Sleep.</div>
+					</div>
+				</div>
+				
+		<script src="preItineraryControl.js"></script>
+		<script src="pretripScript.js"></script>
+	</body>
+</html>
